@@ -1,0 +1,93 @@
+.footer-1{
+    width: 160px;
+}
+.main-text{
+    font-size: 14px;
+    color: gray;
+}
+.medico{
+    width: 10%;
+    height: 20%;
+}
+.title{
+    font-size: 20px;
+}
+.seed{
+    color: gray;
+}
+a{
+    color: gray;
+}
+.title{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.footer{
+    padding-left: 30px;
+    width: 1232px;
+    height: 591px;
+    background-color: #F3F6F7;
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+.footer-1{
+    margin-top: 30px;
+    width: 220px;
+    font-size: 16px; 
+}
+.footer-2{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-3{
+    width:250px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-4{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    padding-left: 0;
+}
+.footer-5{
+    margin-top: 10px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.medico{
+    width: 150px;
+    height: 30px;
+}
+.input-button{
+    position: relative;
+}
+.footer-button{
+    display: inline-block;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    background-color: #0065e1;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.footer-input{
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    font-size: 14px;
+    height: 24px;
+    width: 95%;
+    font-weight: 400;
+    background-color: transparent;
+
+}

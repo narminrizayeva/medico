@@ -1,0 +1,77 @@
+img {
+    width: 10%;
+    height: 20%;
+}
+nav{
+    position: relative;
+}
+.navbar-container {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1190px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+a {
+    font-family: "Playfair Display", serif;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.navbar-button {
+    transition: 0.1s;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    width: 15%;
+    color: white;
+    background: rgb(0, 237, 255);
+    background: linear-gradient(67deg, rgba(0, 237, 255, 1) 0%, rgba(9, 41, 121, 1) 74%);
+
+}
+
+.navbar-button:hover {
+    background: rgb(9, 41, 121);
+    background: linear-gradient(67deg, rgba(9, 41, 121, 1) 26%, rgba(9, 44, 123, 1) 27%, rgba(0, 237, 255, 1) 100%);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: cornflowerblue;
+}
+
+.show {
+    display: block;
+}
